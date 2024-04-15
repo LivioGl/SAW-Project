@@ -1,0 +1,36 @@
+.add_or_remove{
+    margin-top:15%;
+    display: inline-flex;
+    justify-content: space-around;
+    width:100%;
+    font-family: Helvetica, serif;
+}
+
+.add_or_remove .element{
+    flex-direction: column;
+    font-size:18px;
+    background-color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    padding:10px;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    border-radius:6px;
+    transition-duration: 0.4s;
+}
+
+.add_or_remove .element:hover{
+    box-shadow: 0 0 11px rgba(0, 153, 255);
+}
+
+.add_or_remove .element a{
+    text-decoration: none;
+    padding:10px;
+    font-family: Helvetica, serif;
+    font-size:20px;
+    font-weight:bold;
+    color:black;
+}
+
+.add_or_remove .element i{
+    font-size:60;
+}

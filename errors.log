@@ -1,0 +1,322 @@
+[30-Jan-2024 10:42:56 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' VALUES (?, ?, ?)' at line 1 in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php:216
+Stack trace:
+#0 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php(216): mysqli->prepare('INSERT INTO all...')
+#1 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_management.php(64): AddToMenu()
+#2 {main}
+  thrown in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 216
+[30-Jan-2024 10:43:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 47
+[30-Jan-2024 10:43:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 48
+[30-Jan-2024 10:43:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 49
+[30-Jan-2024 10:43:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 34
+[30-Jan-2024 10:43:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 37
+[30-Jan-2024 10:43:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 40
+[30-Jan-2024 10:43:55 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 43
+[30-Jan-2024 10:47:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 47
+[30-Jan-2024 10:47:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 48
+[30-Jan-2024 10:47:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 49
+[30-Jan-2024 10:47:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 34
+[30-Jan-2024 10:47:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 37
+[30-Jan-2024 10:47:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 40
+[30-Jan-2024 10:47:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 43
+[30-Jan-2024 10:48:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::num_rows() in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php:225
+Stack trace:
+#0 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php(201): IsInMenu('Pollo al limone')
+#1 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_management.php(64): AddToMenu()
+#2 {main}
+  thrown in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 225
+[30-Jan-2024 10:49:22 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' VALUES (?, ?, ?)' at line 1 in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php:214
+Stack trace:
+#0 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php(214): mysqli->prepare('INSERT INTO all...')
+#1 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_management.php(64): AddToMenu()
+#2 {main}
+  thrown in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 214
+[30-Jan-2024 10:51:21 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 47
+[30-Jan-2024 10:51:21 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 48
+[30-Jan-2024 10:51:21 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 49
+[30-Jan-2024 10:51:21 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 34
+[30-Jan-2024 10:51:21 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 37
+[30-Jan-2024 10:51:21 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 40
+[30-Jan-2024 10:51:21 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 43
+[30-Jan-2024 10:51:54 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'lattosio' cannot be null in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php:216
+Stack trace:
+#0 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php(216): mysqli_stmt->execute()
+#1 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_management.php(64): AddToMenu()
+#2 {main}
+  thrown in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 216
+[30-Jan-2024 10:53:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #2 cannot be passed by reference in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php:216
+Stack trace:
+#0 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_management.php(64): AddToMenu()
+#1 {main}
+  thrown in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 216
+[30-Jan-2024 10:54:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 47
+[30-Jan-2024 10:54:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 48
+[30-Jan-2024 10:54:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 49
+[30-Jan-2024 10:54:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 34
+[30-Jan-2024 10:54:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 37
+[30-Jan-2024 10:54:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 40
+[30-Jan-2024 10:54:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 43
+[30-Jan-2024 10:56:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #3 cannot be passed by reference in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php:216
+Stack trace:
+#0 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_management.php(64): AddToMenu()
+#1 {main}
+  thrown in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 216
+[30-Jan-2024 12:45:52 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'none' in 'where clause' in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php:247
+Stack trace:
+#0 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php(247): mysqli->query('DELETE FROM men...')
+#1 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\remove_dish.php(3): RemoveDish()
+#2 {main}
+  thrown in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 247
+[30-Jan-2024 12:50:34 Europe/Berlin] PHP Warning:  Undefined array key "newdish" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_management.php on line 65
+[30-Jan-2024 12:50:34 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_management.php on line 65
+[30-Jan-2024 12:50:34 Europe/Berlin] PHP Warning:  Undefined array key "imglink" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_management.php on line 66
+[30-Jan-2024 12:50:34 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_management.php on line 66
+[30-Jan-2024 12:50:34 Europe/Berlin] PHP Warning:  Undefined array key "price" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_management.php on line 67
+[30-Jan-2024 12:50:39 Europe/Berlin] PHP Warning:  Undefined array key "newdish" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_management.php on line 65
+[30-Jan-2024 12:50:39 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_management.php on line 65
+[30-Jan-2024 12:50:39 Europe/Berlin] PHP Warning:  Undefined array key "imglink" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_management.php on line 66
+[30-Jan-2024 12:50:39 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_management.php on line 66
+[30-Jan-2024 12:50:39 Europe/Berlin] PHP Warning:  Undefined array key "price" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_management.php on line 67
+[30-Jan-2024 13:49:15 Europe/Berlin] PHP Warning:  Undefined array key "dish_to_delete" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 245
+[30-Jan-2024 13:49:15 Europe/Berlin] PHP Warning:  Undefined array key "dish_to_delete" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 250
+[30-Jan-2024 13:49:15 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php:251
+Stack trace:
+#0 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php(251): mysqli->query('DELETE FROM men...')
+#1 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_remove_dish.php(22): RemoveDish()
+#2 {main}
+  thrown in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 251
+[30-Jan-2024 13:50:23 Europe/Berlin] PHP Warning:  Undefined array key "dish_to_delete" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 245
+[30-Jan-2024 13:50:23 Europe/Berlin] PHP Warning:  Undefined array key "dish_to_delete" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 250
+[30-Jan-2024 13:50:23 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php:251
+Stack trace:
+#0 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php(251): mysqli->query('DELETE FROM men...')
+#1 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_remove_dish.php(22): RemoveDish()
+#2 {main}
+  thrown in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 251
+[30-Jan-2024 13:51:13 Europe/Berlin] PHP Warning:  Undefined array key "dish_to_delete" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 245
+[30-Jan-2024 13:51:13 Europe/Berlin] PHP Warning:  Undefined array key "dish_to_delete" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 250
+[30-Jan-2024 13:51:13 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php:251
+Stack trace:
+#0 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php(251): mysqli->query('DELETE FROM men...')
+#1 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_remove_dish.php(22): RemoveDish()
+#2 {main}
+  thrown in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 251
+[30-Jan-2024 13:51:25 Europe/Berlin] PHP Warning:  Undefined array key "dish_to_delete" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 245
+[30-Jan-2024 13:51:25 Europe/Berlin] PHP Warning:  Undefined array key "dish_to_delete" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 250
+[30-Jan-2024 13:51:25 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php:251
+Stack trace:
+#0 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php(251): mysqli->query('DELETE FROM men...')
+#1 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_remove_dish.php(22): RemoveDish()
+#2 {main}
+  thrown in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 251
+[30-Jan-2024 13:51:27 Europe/Berlin] PHP Warning:  Undefined array key "dish_to_delete" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 245
+[30-Jan-2024 13:51:27 Europe/Berlin] PHP Warning:  Undefined array key "dish_to_delete" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 250
+[30-Jan-2024 13:51:27 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php:251
+Stack trace:
+#0 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php(251): mysqli->query('DELETE FROM men...')
+#1 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_remove_dish.php(22): RemoveDish()
+#2 {main}
+  thrown in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 251
+[30-Jan-2024 13:51:28 Europe/Berlin] PHP Warning:  Undefined array key "dish_to_delete" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 245
+[30-Jan-2024 13:51:28 Europe/Berlin] PHP Warning:  Undefined array key "dish_to_delete" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 250
+[30-Jan-2024 13:51:28 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php:251
+Stack trace:
+#0 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php(251): mysqli->query('DELETE FROM men...')
+#1 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_remove_dish.php(22): RemoveDish()
+#2 {main}
+  thrown in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 251
+[30-Jan-2024 13:53:47 Europe/Berlin] PHP Warning:  Undefined array key "dish_to_delete" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 245
+[30-Jan-2024 13:53:47 Europe/Berlin] PHP Warning:  Undefined array key "dish_to_delete" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 250
+[30-Jan-2024 13:53:47 Europe/Berlin] PHP Warning:  Undefined variable $query in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 251
+[30-Jan-2024 13:53:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php:251
+Stack trace:
+#0 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_remove_dish.php(22): RemoveDish()
+#1 {main}
+  thrown in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 251
+[30-Jan-2024 13:54:23 Europe/Berlin] PHP Warning:  Undefined array key "dish_to_delete" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 245
+[30-Jan-2024 13:54:23 Europe/Berlin] PHP Warning:  Undefined array key "dish_to_delete" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 250
+[30-Jan-2024 13:54:23 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php:251
+Stack trace:
+#0 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php(251): mysqli->query('DELETE FROM men...')
+#1 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_remove_dish.php(22): RemoveDish()
+#2 {main}
+  thrown in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 251
+[30-Jan-2024 13:55:10 Europe/Berlin] PHP Warning:  Undefined array key "dish_to_delete" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 245
+[30-Jan-2024 13:55:10 Europe/Berlin] PHP Warning:  Undefined array key "dish_to_delete" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 251
+[30-Jan-2024 13:55:10 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php:252
+Stack trace:
+#0 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php(252): mysqli->query('DELETE FROM men...')
+#1 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_remove_dish.php(22): RemoveDish()
+#2 {main}
+  thrown in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 252
+[30-Jan-2024 13:56:31 Europe/Berlin] PHP Warning:  Undefined array key "dish_to_delete" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_remove_dish.php on line 22
+[30-Jan-2024 13:56:31 Europe/Berlin] PHP Warning:  Undefined array key "dish_to_delete" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 245
+[30-Jan-2024 13:56:31 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php:250
+Stack trace:
+#0 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php(250): mysqli->query('DELETE FROM men...')
+#1 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_remove_dish.php(23): RemoveDish(NULL)
+#2 {main}
+  thrown in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 250
+[30-Jan-2024 13:56:37 Europe/Berlin] PHP Warning:  Undefined array key "dish_to_delete" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_remove_dish.php on line 22
+[30-Jan-2024 13:56:37 Europe/Berlin] PHP Warning:  Undefined array key "dish_to_delete" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 245
+[30-Jan-2024 13:56:37 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php:250
+Stack trace:
+#0 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php(250): mysqli->query('DELETE FROM men...')
+#1 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_remove_dish.php(23): RemoveDish(NULL)
+#2 {main}
+  thrown in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 250
+[30-Jan-2024 13:58:06 Europe/Berlin] PHP Warning:  Undefined array key "dish_to_delete" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_remove_dish.php on line 22
+[30-Jan-2024 13:58:06 Europe/Berlin] PHP Warning:  Undefined array key "dish_to_delete" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 245
+[30-Jan-2024 13:58:06 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php:250
+Stack trace:
+#0 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php(250): mysqli->query('DELETE FROM men...')
+#1 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_remove_dish.php(23): RemoveDish(NULL)
+#2 {main}
+  thrown in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 250
+[30-Jan-2024 13:59:33 Europe/Berlin] PHP Warning:  Undefined array key "dish_to_delete" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_remove_dish.php on line 22
+[30-Jan-2024 13:59:33 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php:250
+Stack trace:
+#0 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php(250): mysqli->query('DELETE FROM men...')
+#1 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_remove_dish.php(23): RemoveDish(NULL)
+#2 {main}
+  thrown in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 250
+[30-Jan-2024 13:59:56 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'Diavola' in 'where clause' in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php:250
+Stack trace:
+#0 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php(250): mysqli->query('DELETE FROM men...')
+#1 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_remove_dish.php(23): RemoveDish('Diavola')
+#2 {main}
+  thrown in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 250
+[30-Jan-2024 14:53:03 Europe/Berlin] PHP Warning:  Undefined array key "dish_to_delete" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_remove_dish.php on line 22
+[30-Jan-2024 14:53:12 Europe/Berlin] PHP Warning:  Undefined array key "dish_to_delete" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_remove_dish.php on line 22
+[30-Jan-2024 14:55:08 Europe/Berlin] PHP Warning:  Undefined array key "dish_to_delete" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu_remove_dish.php on line 22
+[30-Jan-2024 15:45:42 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY nome_piatto' at line 1 in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php:31
+Stack trace:
+#0 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php(31): mysqli->query('SELECT * FROM m...')
+#1 {main}
+  thrown in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php on line 31
+[30-Jan-2024 15:46:53 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY nome_piatto' at line 1 in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php:31
+Stack trace:
+#0 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php(31): mysqli->query('SELECT * FROM m...')
+#1 {main}
+  thrown in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php on line 31
+[30-Jan-2024 17:29:18 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY nome_piatto' at line 1 in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php:31
+Stack trace:
+#0 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php(31): mysqli->query('SELECT * FROM m...')
+#1 {main}
+  thrown in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php on line 31
+[30-Jan-2024 17:29:56 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY nome_piatto' at line 1 in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php:31
+Stack trace:
+#0 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php(31): mysqli->query('SELECT * FROM m...')
+#1 {main}
+  thrown in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php on line 31
+[30-Jan-2024 17:42:17 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY nome_piatto' at line 1 in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php:31
+Stack trace:
+#0 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php(31): mysqli->query('SELECT * FROM m...')
+#1 {main}
+  thrown in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php on line 31
+[30-Jan-2024 18:30:12 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'S5169562'@'localhost' (using password: YES) in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php:16
+Stack trace:
+#0 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php(16): mysqli_connect('localhost:3307', 'S5169562', Object(SensitiveParameterValue), 'S5169562')
+#1 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php(105): Con()
+#2 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php(53): IsInByToken('43fccc3936cdeff...')
+#3 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\nav.php(18): IsLogged()
+#4 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\index.php(3): require_once('C:\\Users\\galle\\...')
+#5 {main}
+  thrown in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 16
+[30-Jan-2024 18:34:52 Europe/Berlin] PHP Warning:  Undefined array key "img" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 49
+[30-Jan-2024 18:56:45 Europe/Berlin] PHP Warning:  Undefined array key "RememberMe" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\login.php on line 64
+[30-Jan-2024 18:56:45 Europe/Berlin] PHP Warning:  Undefined array key "IsAdmin" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\login.php on line 71
+[30-Jan-2024 18:57:04 Europe/Berlin] PHP Warning:  Undefined array key "IsAdmin" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\login.php on line 71
+[30-Jan-2024 18:59:24 Europe/Berlin] PHP Warning:  Undefined array key "RememberMe" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\login.php on line 64
+[31-Jan-2024 10:53:26 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY nome_piatto' at line 1 in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php:35
+Stack trace:
+#0 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php(35): mysqli->query('SELECT * FROM m...')
+#1 {main}
+  thrown in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php on line 35
+[31-Jan-2024 10:54:09 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'Id' in 'where clause' in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php:239
+Stack trace:
+#0 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php(239): mysqli->query('SELECT * FROM s...')
+#1 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php(76): OrderList(1)
+#2 {main}
+  thrown in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 239
+[31-Jan-2024 10:55:54 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY nome_piatto' at line 1 in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php:35
+Stack trace:
+#0 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php(35): mysqli->query('SELECT * FROM m...')
+#1 {main}
+  thrown in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php on line 35
+[31-Jan-2024 10:57:34 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY nome_piatto' at line 1 in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php:35
+Stack trace:
+#0 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php(35): mysqli->query('SELECT * FROM m...')
+#1 {main}
+  thrown in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php on line 35
+[31-Jan-2024 10:59:57 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY nome_piatto' at line 1 in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php:35
+Stack trace:
+#0 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php(35): mysqli->query('SELECT * FROM m...')
+#1 {main}
+  thrown in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php on line 35
+[31-Jan-2024 11:00:46 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY nome_piatto' at line 1 in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php:36
+Stack trace:
+#0 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php(36): mysqli->query('SELECT * FROM m...')
+#1 {main}
+  thrown in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php on line 36
+[31-Jan-2024 11:01:11 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY nome_piatto' at line 1 in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php:36
+Stack trace:
+#0 C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php(36): mysqli->query('SELECT * FROM m...')
+#1 {main}
+  thrown in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php on line 36
+[31-Jan-2024 11:07:05 Europe/Berlin] PHP Warning:  Undefined variable $a in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\cart.php on line 43
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 57
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 306
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 57
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 306
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 57
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 306
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 57
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 306
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 57
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 306
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 57
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 306
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 57
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 306
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 57
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 306
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 57
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 306
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 57
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 306
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 57
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 306
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 57
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 306
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 57
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 306
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 57
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 306
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 57
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 306
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 57
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 306
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 57
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 306
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 57
+[31-Jan-2024 11:51:19 Europe/Berlin] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 306
+[31-Jan-2024 11:53:23 Europe/Berlin] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 306
+[31-Jan-2024 11:54:55 Europe/Berlin] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\functions.php on line 306
+[31-Jan-2024 12:00:01 Europe/Berlin] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 57
+[31-Jan-2024 12:01:56 Europe/Berlin] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 57
+[31-Jan-2024 12:02:23 Europe/Berlin] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 57
+[31-Jan-2024 12:03:55 Europe/Berlin] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 57
+[31-Jan-2024 12:04:13 Europe/Berlin] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 57
+[31-Jan-2024 12:05:09 Europe/Berlin] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 57
+[31-Jan-2024 13:02:28 Europe/Berlin] PHP Warning:  Undefined array key "IsBanned" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\menu.php on line 69
+[31-Jan-2024 13:25:03 Europe/Berlin] PHP Warning:  Undefined array key "RememberMe" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\login.php on line 64
+[31-Jan-2024 13:30:58 Europe/Berlin] PHP Warning:  Undefined array key "RememberMe" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\login.php on line 64
+[31-Jan-2024 18:56:38 Europe/Berlin] PHP Warning:  Undefined array key "RememberMe" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\login.php on line 59
+[31-Jan-2024 19:03:47 Europe/Berlin] PHP Warning:  Undefined array key "RememberMe" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\login.php on line 59
+[31-Jan-2024 19:06:56 Europe/Berlin] PHP Warning:  Undefined array key "RememberMe" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\login.php on line 59
+[31-Jan-2024 19:09:06 Europe/Berlin] PHP Warning:  Undefined array key "RememberMe" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\login.php on line 59
+[31-Jan-2024 19:10:16 Europe/Berlin] PHP Warning:  Undefined array key "RememberMe" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\login.php on line 59
+[31-Jan-2024 19:11:08 Europe/Berlin] PHP Warning:  Undefined array key "RememberMe" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\login.php on line 59
+[31-Jan-2024 19:17:17 Europe/Berlin] PHP Warning:  Undefined array key "RememberMe" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\login.php on line 59
+[31-Jan-2024 19:26:00 Europe/Berlin] PHP Warning:  Undefined array key "RememberMe" in C:\Users\galle\PhpstormProjects\SAW\Progetto SAW\Code\login.php on line 59
+[07-Feb-2024 21:30:46 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\galle\OneDrive\Desktop\codice progetto SAW\Code\admin.php on line 25

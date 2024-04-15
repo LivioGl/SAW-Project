@@ -1,0 +1,100 @@
+.mycart{
+    margin:auto;
+    width:80%;
+    border-collapse:collapse;
+}
+
+.mycart th, td{
+    color: #000000;
+    padding:10px;
+    text-align:center;
+    background-color: rgba(250, 250, 250, 0.82);
+    border: 1px solid rgba(252, 247, 247, 0);
+}
+
+.mycart tr{
+    padding:10px;
+    text-align:center;
+    background-color: rgba(13, 49, 141, 0.6);
+    border: 1px solid black;
+}
+
+.mycart tr:nth-child(even){background-color: rgba(242, 242, 242, 0.77);}
+
+.mycart th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgba(0, 52, 108, 0.82);
+    color: white;
+}
+
+
+.mycart button{
+    display: inline-block;
+    font-weight: bold;
+    background-color: white;
+    border: 4px solid red;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+}
+
+.mycart button:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: red;
+    color:white;
+    transform: translateY(1px);
+}
+
+div button {
+    font-weight: bold;
+    background-color: white;
+    border: 4px solid darkgreen;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+}
+
+.confirm_order{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div button:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: darkgreen;
+    color:white;
+    transform: translateY(1px);
+}
+
+
+td img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+h2 {
+    border-radius: 12px;
+    color: #f8f6f6;
+    text-align:center;
+    background-color: rgba(0, 52, 108, 0.82);
+    font-family: Monserrat sans-serif;
+    margin: 2% 30% 2% 30%;
+    padding:10px;
+}
+

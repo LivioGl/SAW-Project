@@ -1,0 +1,166 @@
+article{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    width:200px;
+    height:350px;
+    transition: box-shadow .3s;
+    margin-top:20px;
+    margin-bottom:70px;
+}
+
+.price{
+    color: black;
+    font-size: 20px;
+    margin:0;
+}
+
+article h1{
+    height:13px;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+
+article button {
+    border: none;
+    outline: 0;
+    padding: 6px;
+    color: white;
+    background-color: rgb(0, 66, 148);
+    text-align: center;
+    cursor: pointer;
+    width: 45%;
+    font-size: 18px;
+}
+
+article img{
+    height: 133px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    max-height:300px;
+    margin-bottom:60px;
+}
+
+article:hover{
+    box-shadow: 0 0 11px rgba(0, 153, 255);
+}
+
+.menu_index{
+    font-family: Arial, sans-serif;
+    font-size:18px;
+    color:black;
+    background-color:white;
+}
+
+select option{
+    padding:30px;
+}
+
+label{
+    display:none;
+}
+
+.div1{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    margin-top:50px;
+}
+
+section{
+    display: flex;
+    flex:auto;
+
+}
+
+section .search_container{
+    background-color:#00346C;
+}
+section input[type=text] {
+    padding: 6px;
+    margin: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.p_allergen{
+    height:17px;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    margin:10px;
+}
+
+ul{
+    list-style-type: none;
+    padding-left:20px;
+
+}
+li{
+    display:inline;
+    background-color:white;
+    padding:4px;
+    font-family: Arial, sans-serif;
+    font-weight:bold;
+}
+ul li:nth-child(3){
+    margin-right:20px;
+}
+
+.legend{
+    background-color: #00346C;
+}
+
+article select {
+    background-color: #035ec2;
+    color:white;
+    padding:6px;
+    width:50px;
+    border:none;
+    font-size:17px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    outline:none;
+    text-align:center;
+}
+select{
+    background-color:#00346C;
+    color:white;
+    padding:12px;
+    width:250px;
+    border:none;
+    font-size:20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    outline:none;
+}
+
+article button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #002d70
+}
+
+.logged_users_functions{
+    display:flex;
+    flex-direction: column;
+}
+.stars{
+    margin-bottom:5px;
+}
+
+.logged_users_functions form{
+    margin-bottom:5px;
+}
+
+.price_allergen{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:40px;
+}
